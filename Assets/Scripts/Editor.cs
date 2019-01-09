@@ -14,4 +14,8 @@ public class Editor : MonoBehaviour
         previewText.text = editText.text;
     }
 
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
+    }
 }
